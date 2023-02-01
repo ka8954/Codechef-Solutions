@@ -1,0 +1,15 @@
+t = int(input())
+
+for i in range(0,t):
+    
+    sal = int(input())
+    
+    if sal<1500:
+        hra = (0.10)*sal
+        da = (0.9)*sal
+    
+    elif sal==1500 or sal>1500:
+        hra = 500 
+        da = (0.98)*sal
+        
+    print(sal+hra+da)
