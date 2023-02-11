@@ -1,0 +1,8 @@
+t = int(input())
+
+for i in range(0,t):
+    
+    xa,xb,Xa,Xb = map(int,input().split())
+    res1 = Xa//xa 
+    res2 = Xb//xb
+    print(res1+res2)
