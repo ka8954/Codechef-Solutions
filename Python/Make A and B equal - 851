@@ -1,0 +1,13 @@
+t = int(input())
+
+for i in range(0,t):
+    a,b = map(int,input().split())
+    mi = min(a,b)
+    ma = max(a,b)
+    
+    while (mi<ma):
+        mi=mi*2
+    if (mi==ma):
+        print("YES")
+    else:
+        print("NO")
