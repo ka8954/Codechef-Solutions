@@ -1,0 +1,6 @@
+
+t = int(input())
+
+for i in range(0,t):
+    m,s = map(int,input().split())
+    print(m//s)
